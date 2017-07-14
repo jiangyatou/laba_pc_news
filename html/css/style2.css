@@ -963,7 +963,9 @@ html .sidebar.fold .sidebar-panel .header{		padding-left:20px;	}
 
 
 
-.sidebar-open-button{	width:28px;	height:53px;	float:left;	margin:20px 0 0 -40px;	display:block;background:url(../img/menu.png) no-repeat;	}
+.sidebar-open-button{	width:28px;	height:53px;	float:left;	margin:20px 0 0 -40px;	display:block;
+	background:url(../img/menu.png) no-repeat;	}
+body.fold .sidebar-open-button{	margin:20px 0 0 0px;	background:url(../images/menu2.png) no-repeat;	}
 .new-message{	float:right;	margin:27px 1% 0 0%;	}
 .new-message img{	float:left;	}
 .new-message i{	height:20px;	line-height:20px;	font-style:normal;	padding:0 5px;	position:relative;	left:-9px;	top:-3px;	float:left;	font-size:16px;
@@ -991,7 +993,7 @@ ul.ul_top li a{	font-size:18px;	color:#b4b4b4;	}
 .IName .account{	color:#f61e1e;	height:24px;	line-height:24px;	font-size:16px;	margin-right:8px;	}
 .IName img{			position:relative;	atop:3px;	margin-right:15px;	}
 .IName .logout{		color:#8894a4;	height:28px;	font-size:15px;	 line-height:28px; color:#FF0000; padding:0 0px;	afloat:right;	}
-.sidepanel-open-button{		width:90px;	height:90px;	float:right;	}
+.sidepanel-open-button{		width:90px;	height:88px;	float:right;	cursor:pointer;	}
 
 .HYrukou{	width:270px;	box-shadow:2px 2px 2px #d9d9d9;	position:absolute;	right:91px;	top:88px;	height:auto;	border-radius:0 0 10px 10px;
 	background:#fff;	background:rgba(255,255,255,0.9);	adisplay:block;	z-index:5555;	border-left:2px solid rgb(217,217,217);	border-left:none;
@@ -1008,12 +1010,15 @@ ul.ul_top li a{	font-size:18px;	color:#b4b4b4;	}
 .HYrukou ul li:first-child+li+li+li+li+li a{	width:130px;	border-right:none;	}
 .HYrukou ul li a:hover{ color:#1ab394;	font-weight:400;	background:none;	}
 
-.sidepanel{ width:360px; height:auto;	float:right;	right:0;	top:0px;	position:absolute;	z-index:9999;	overflow:auto;	overflow-x:hidden;	overflow-y:hidden;
-		box-shadow:3px 3px 3px #ccc;	}
+.sidepanel{ width:360px; height:auto;	float:right;	right:0;	top:0px;	position:absolute;	z-index:9999;
+	overflow:auto;	overflow-x:hidden;	overflow-y:hidden;
+	overflow-x:visible;	overflow-y:visible;
+	abox-shadow:-5px 2px 15px rgba(5,130,245,.2);	}
 
 .IIO_nt{	padding-left:25px;	font-size:20px;	color:#666;/*	background:url(../images/cart.png) no-repeat 26px 20px;	*/		}
-.IIO_nt span{	color:#ff0000;	font-size:25px;	}
-.IIO_line{	background:url(../images/line.png) repeat-x 0 0;	height:4px;	overflow:hidden;	width:100%;	margin-bottom:10px;	}
+.IIO_nt span{	color:#ff0000;	font-size:25px;	color:#0582f5;	}
+.IIO_line{	background:url(../images/line.png) repeat-x 0 0;	height:4px;	overflow:hidden;	width:100%;	margin-bottom:10px;
+	background:none;	border-top:1px solid #B2D2F2;	}
 .ITorder{	padding:0px 0px 0px 18px;	width:auto;	height:490px;	float:left;	margin-bottom:10px;	}
 .ITorder li{	height:60px;	overflow:hidden;	padding:0px 20px 0px 0px;	margin:10px 0 15px;	width:100%;	display:block;
 	padding:12px 20px 13px 0px;	margin:0px 0 0px;		}
@@ -1027,8 +1032,14 @@ ul.ul_top li a{	font-size:18px;	color:#b4b4b4;	}
 .IOtext p{ 	color:#ff0000;font-size:18px; line-height:30px;	font-weight:400;	}
 .IObu{	float:left;	width:100%;	height:auto;	margin-top:20px;	}
 .IObu p{	color:#8894a4;	font-size:16px;	line-height:24px;	padding:13px 0 13px 30px;	}
-.TOUbutton{ width:100px; height:40px;	line-height:40px; border-radius:5px;	font-size:16px; color:#fff; background:#1ab394; margin:0px 0 0 105px;
-	border:1px solid #168972;	border-width:0 1px 1px 0;	}
+.IObu p{	height:70px;	line-height:64px;	padding:0 32px 0 28px;	font-size:22px;	color:#5c6165;
+	border:1px solid #D2D2D2;	border-bottom:0;	}
+#price_tcar{	font-size:35px;	color:#fe4d55;	display:inline-block;	width:215px;	text-align:right;
+	position:relative;	top:4px;	}
+.TOUbutton{ width:100px; height:40px;	line-height:40px; border-radius:5px;	font-size:16px; color:#fff;
+	background:#1ab394; margin:0px 0 0 105px;	border:1px solid #168972;	border-width:0 1px 1px 0;	}
+.TOUbutton{	width:100%;	height:90px;	margin:0 0 0 0;	border:none;	border-radius:0;	font-size:26px;	color:#ffffff;
+	background:#0582F5;	position:relative;	atop:2px;	cursor:pointer;	box-shadow:2px 2px 16px 3px rgba(82,203,123,.41);	}
 
 .INa1dd{	width:96%;	width:96%;	height:auto;	margin:auto;}
 
@@ -1535,6 +1546,9 @@ body.fhide .content{	margin-left:60px;	margin-left:0;	}
 body.fhide .ITuser{		width:282px;	width:242px;	}
 body.fhide .HYrukou{	right:60px;		right:20px;	}
 
-.right_yingcang{float:left;height:auto;padding-bottom:30px; width:360px;background:#fff; position:relative;  top:-2px; z-index:2;}
+.right_yingcang{float:left;height:auto;padding-bottom:0px; width:360px;background:#fff;
+	position:relative;  atop:-2px; z-index:2;	box-shadow:0px 2px 15px rgba(5,130,245,.3);	}
 .logo1{	width:69px; float:left;}
 
+.update_user{	cursor:pointer;	}
+.update_user:hover{	color:#777;	}

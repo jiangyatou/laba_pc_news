@@ -40,7 +40,7 @@
         <!--	帐户余额	-->
         <div class="right_balance">
         	<h2>帐户余额</h2>
-            <h1>555.21 <span>元</span></h1>
+            <h1 id="yu_e" data="555.21">555.21 <span>元</span></h1>
             <a href="" class="topup">充 值</a>
             <a href="" class="withdrawal">提 现</a>
             <a href="" class="mingxi">查看收支明细 ></a>
@@ -303,13 +303,13 @@ $(".update_user").click(function(){
 	});
 	$(".btn_uh").click(function(){
 		var yu_e = $("#yu_e").attr("data");
-		console.log(yu_e);
+//		console.log(yu_e);
 		if( yu_e >= 100000 ){
 			$(this).html("申请等待升级审核").css("background","#999");
 			return false;
 		}
 	});
-	$(".update_user").click();
+//	$(".update_user").click();
 	
 </script>
 <script type="text/javascript">
