@@ -87,3 +87,5 @@ $(function(){
 	
 })
 </script>
+
+<script type="text/javascript" src="/js/charts.js"></script>

@@ -43,8 +43,8 @@
         </div>
         <div class="aq_right">
         	<div class="aq_righttop">
-            	<!--	柱状图	-->
-				<div class="r minh" id="tb_aq2"></div>
+            	<!--	环状图	-->
+				<div class="minh tb_box5" id="tb_gyscx1"></div>
             </div>
             <div class="aq_rightbottom">
             	<div class="snt" style="border-right:1px solid #ccc;"><hd>已完成订单数</hd><span>211</span></div>

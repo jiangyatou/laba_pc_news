@@ -46,8 +46,8 @@
         </div>
         <div class="aq_right">
         	<div class="aq_righttop">
-            	<!--	柱状图	-->
-				<div class="r minh" id="tb_aq2"></div>
+            	<!--	环状图	-->
+				<div class="minh tb_box5" id="tb_ghcx1"></div>
             </div>
             <div class="aq_rightbottom">
             	<div class="snt" style="border-right:1px solid #ccc;"><hd>已发布订单数</hd><span>211</span></div>
@@ -304,110 +304,7 @@
 		});
 	}
 
-/*	饼状图	*/
-if( $('#tb_aq1').length > 0 ){
-	var myChart_hv2 = echarts.init(document.getElementById('tb_aq1'));
-	option_hv2 = {
-		title : {
-			text: '',
-			subtext: '',
-			x:'center',
-			y:'bottom',
-			textStyle:{
-				fontSize: '14',
-				color: '#c23531',
-				fontWeight: 'normal'
-			}
-		},
-		tooltip : {
-			trigger: 'item',
-			formatter: "{a} <br/>{b} : {c} ({d}%)"
-		},
-		legend: {
-			orient: 'vertical',
-			left: 'left',
-			data: []
-		},
-		series : [
-			{
-				name: '访问来源',
-				type: 'pie',
-				radius : '45%',
-				center: ['50%', '55%'],
-				data:[
-					{value:335, name:'总金额'},
-					{value:310, name:'充值金额'},
-					{value:234, name:'提现金额'},
-					{value:135, name:'消费金额'}
-				],
-				itemStyle: {
-					emphasis: {
-						shadowBlur: 10,
-						shadowOffsetX: 0,
-						shadowColor: 'rgba(0, 0, 0, 0.5)'
-					}
-				}
-			}
-		]
-	};
-	myChart_hv2.setOption(option_hv2);
-}
-	
-</script>
-<script>
-/*	饼状图	*/
-if( $('#tb_aq2').length > 0 ){
-	var myChart_hv2 = echarts.init(document.getElementById('tb_aq2'));
-	option_hv2 = {
-		title : {
-			text: '发布订单的类型统计',
-			subtext: '',
-			x:'center',
-			y:'top',
-			textStyle:{
-				fontSize: '18',
-				color: '#474747',
-				fontWeight: 'normal'
-			}
-		},
-		tooltip : {
-			trigger: 'item',
-			formatter: "{a} <br/>{b} : {c} ({d}%)"
-		},
-		legend: {
-			orient: 'vertical',
-			left: 'left',
-			data: []
-		},
-		series : [
-			{
-				name: '访问来源',
-				type: 'pie',
-				radius : '45%',
-				center: ['50%', '55%'],
-				data:[
-					{value:335, name:'网络媒体'},
-					{value:100, name:'户外媒体'},
-					{value:200, name:'平面媒体'},
-					{value:330, name:'电视媒体'},
-					{value:444, name:'广播媒体'},
-					{value:555, name:'记者预约'},
-					{value:666, name:'内容代写'},
-					{value:777, name:'宣传定制'}
-				],
-				itemStyle: {
-					emphasis: {
-						shadowBlur: 10,
-						shadowOffsetX: 0,
-						shadowColor: 'rgba(0, 0, 0, 0.5)'
-					}
-				}
-			}
-		]
-	};
-	myChart_hv2.setOption(option_hv2);
-}
-	
+		
 </script>
 <script>
 /*	表格切换分页	*/

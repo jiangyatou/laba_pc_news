@@ -82,7 +82,7 @@
 				<div class="wrap_fr3">
 					<h3 style="padding-bottom:0;">一周订单统计数据表</h3>
 				<!--	柱状图	-->
-					<div class="" id="tb_hv1">
+					<div class="tb_box3" id="tb_sq1">
 						
 					</div>
 					<h3 style="color:#747474;margin-top:60px; text-align:left;">账户盈利状况</h3>
@@ -95,7 +95,7 @@
 						
 						</div>
 					<!--	饼状图	-->
-						<div class="r " id="tb_hv2">
+						<div class="r tb_box4" id="tb_sq2">
 							
 						</div>
 					</div>
@@ -395,99 +395,7 @@
 	}
 
 	
-/*	柱状图	*/
-if( $('#tb_hv1').length > 0 ){
-	var myChart_hv1 = echarts.init(document.getElementById('tb_hv1'));
-	option_hv1 = {
-		color: ['#3398DB'],
-		tooltip : {
-			trigger: 'axis',
-			axisPointer : {            // 坐标轴指示器，坐标轴触发有效
-				type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
-			}
-		},
-		grid: {
-			left: '3%',
-			right: '4%',
-			bottom: '3%',
-			containLabel: true
-		},
-		xAxis : [
-			{
-				type : 'category',
-//				data : ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
-				data : ['网络媒体', '户外媒体', '平面媒体', '电视媒体', '广播媒体', '内容代写', '记者报料'],
-				axisTick: {
-					alignWithLabel: true
-				}
-			}
-		],
-		yAxis : [
-			{
-				type : 'value'
-			}
-		],
-		series : [
-			{
-				name:'直接访问',
-				type:'bar',
-				barWidth: '60%',
-				data:[10, 52, 200, 334, 390, 330, 220]
-			}
-		]
-	};
-	myChart_hv1.setOption(option_hv1);
-}
 
-/*	饼状图	*/
-if( $('#tb_hv2').length > 0 ){
-	var myChart_hv2 = echarts.init(document.getElementById('tb_hv2'));
-	option_hv2 = {
-		title : {
-			text: '会员账户金额分布统计图',
-			subtext: '今天天气',
-			x:'75',
-			y:'bottom',
-			textStyle:{
-				fontSize: '14',
-				color: '#c23531',
-				fontWeight: 'normal'
-			}
-		},
-		tooltip : {
-			trigger: 'item',
-			formatter: "{a} <br/>{b} : {c} ({d}%)"
-		},
-		legend: {
-			orient: 'vertical',
-			left: 'left',
-			data: ['平台纯收益','充值金额','提现金额','订单消费金额']
-		},
-		series : [
-			{
-				name: '访问来源',
-				type: 'pie',
-				radius : '55%',
-				center: ['60%', '55%'],
-				data:[
-					{value:335, name:'平台纯收益'},
-					{value:310, name:'充值金额'},
-					{value:234, name:'提现金额'},
-					{value:135, name:'订单消费金额'}
-				],
-				itemStyle: {
-					emphasis: {
-						shadowBlur: 10,
-						shadowOffsetX: 0,
-						shadowColor: 'rgba(0, 0, 0, 0.5)'
-					}
-				}
-			}
-		]
-	};
-	myChart_hv2.setOption(option_hv2);
-}
-	
 </script>
 <script>
 /*	表格切换分页	*/

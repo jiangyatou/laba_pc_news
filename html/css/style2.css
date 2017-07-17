@@ -209,9 +209,10 @@ aa#datatable1_filter{	display:none;	}
 .row3_3 .row3_3_m{	line-height:40px;	text-align:center;	padding:26px 0 50px;	}
 .row3_3 p{		font-size:18px;	}
 .row3_3 .callback{	margin:16px auto;	}
-.callback{	height:50px;	width:365px;	min-width:180px;	}
+.callback{	height:50px;	width:365px;	min-width:180px;
+	background:url(/images/bgline.png) no-repeat 100px 0;	}
 .w_txt4{	display:block;	margin-left:10px;	overflow:hidden; position:absolute;}
-.txt4{		width:150%;	height:48px;	line-height:48px;	border:1px solid #037ef3;border-right:none; font-size:16px;	padding:0 10%;	border-radius:25px 0 0 25px;	}
+.txt4{		awidth:150%;	height:48px;	line-height:48px;	border:1px solid #037ef3;border-right:none; font-size:16px;	padding:0 10%;	border-radius:25px 0 0 25px;	}
 .sub3{	float:right;	width:110px;	height:50px;	border:none;	padding:0;	text-align:center;	border-radius:25px;	color:#fff;
 	background:#037ef3;	font-size:16px;	cursor:pointer;		outline:none; position:relative; z-index:100; top:0; left:-50px;}
 
@@ -1081,11 +1082,15 @@ html .content.fold{	margin-left:70px;	}
 .title1 .more{	float:right;	padding:30px 30px 10px 10px;	font-size:20px;	color:#b5b5b5;		}
 
 .right_tongji{ width:32%; height:660px; float:left; background:#fff;border-radius:5px;-webkit-box-shadow:0 0 15px #bad1e6;  
-  -moz-box-shadow:0 0 15px #bad1e6;  
-  box-shadow:0 0 15px #bad1e6;  }
-.left_tongji{ width:66%;height:660px; float:left; margin-right:2%;overflow:hidden;	box-shadow:3px 3px 2px #ccc;	border-radius:5px;background:#fff;}
+	-moz-box-shadow:0 0 15px #bad1e6;  
+	box-shadow:0 0 15px #bad1e6;
+	height:auto;	height:800px;	}
+.left_tongji{ width:66%;height:660px; float:left; margin-right:2%;overflow:hidden;	box-shadow:3px 3px 2px #ccc;
+	border-radius:5px;background:#fff;
+	height:auto;	height:800px;	}
 
-.right_yonghu{ width:32%; height:660px; float:left;border-radius:5px; }
+.right_yonghu{ width:32%; height:660px; float:left;border-radius:5px;
+	height:auto;	}
 .yonghu_list{ width:100%; background:#fff; float:left;-webkit-box-shadow:0 0 15px #bad1e6;  
   -moz-box-shadow:0 0 15px #bad1e6;  
   box-shadow:0 0 15px #bad1e6; }
@@ -1312,8 +1317,7 @@ table.table_in1 tbody td.bz{		text-align:left;	line-height:22px;	padding-left:2%
 .row3_22 ul .li3 span{	background:url(../images/ico_li3.png) no-repeat center center #1ab394;	}
 .wrap_fr3 .r{	width:50%;	margin-top:0px;	}
 
-#tb_hv1{	margin:0px auto;	padding:0 0 0px;	width:100%;	height:330px;	}
-#tb_hv2{	margin:0px auto;	padding:0 0 0px;	width:55%;	height:300px;    box-shadow: 0 0 15px #bad1e6;}
+
 
 
 .sbox_1_w2{		border:0px solid #E5E5E5;	padding:30px 0 0;	border-radius:6px;		}
@@ -1552,3 +1556,19 @@ body.fhide .HYrukou{	right:60px;		right:20px;	}
 
 .update_user{	cursor:pointer;	}
 .update_user:hover{	color:#777;	}
+
+
+/*	图表样式 */
+.tb_box1{	margin:0px auto;	padding:0px 0 0;	width:80%;	height:700px;	}	/*	投放分页	*/
+.tb_box2{	margin:0px auto;	padding:0px 0 0;	width:90%;	height:630px;	}	/*	订单统计	*/
+
+.tb_box3{	margin:0px auto;	padding:0 0 0px;	width:100%;	height:330px;	}
+aa#tb_hv1{	margin:0px auto;	padding:0 0 0px;	width:100%;	height:330px;	}
+
+.wrap_fr3 .tb_box4{	margin:0px auto;	padding:0px 0;	width:55%;	height:350px;    box-shadow: 0 0 15px #bad1e6;}
+aa#tb_hv2{	margin:0px auto;	padding:0 0 0px;	width:55%;	height:300px;    box-shadow: 0 0 15px #bad1e6;}
+
+.tb_box5{	margin:0px 0;	padding:0px 0;	width:95%;	height:300px;	}
+.tb_box6{	margin:0px 0;	padding:0px 0;	width:95%;	height:400px;	}
+
+

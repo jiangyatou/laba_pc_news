@@ -81,7 +81,7 @@
 	<div class="info_am clearfix margin_top_40">
     	<div class="left_tongji">
             <h3 class="title1"><strong><a >投放分布</a></strong></h3>
-            <div class="tffb_m axis" id="tb1">
+            <div class="tffb_m axis tb_box1" id="gli_1">
             </div>
         </div>
         <div class="right_yonghu">

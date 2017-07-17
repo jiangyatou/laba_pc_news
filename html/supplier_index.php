@@ -73,7 +73,7 @@
 	<div class="info_am clearfix margin_top_40">
     	<div class="left_tongji">
             <h3 class="title1"><strong><a >投放分布</a></strong></h3>
-            <div class="tffb_m axis" id="tb1"></div>
+            <div class="tffb_m axis tb_box1" id="gyi_1"></div>
         </div>
         <div class="right_tongji">
         	
@@ -87,13 +87,13 @@
 			</div>
 			<div class="tab2_body">
 				<ul class="clearfix" style="display:block;">
-					<div id="tb4"></div>
+					<div id="gyi_2" class="tb_box2"></div>
 				</ul>
 				<ul class="clearfix" style="display:none;">
-					sdfsd
+					<div id="gyi_3" class="tb_box2"></div>
 				</ul>
                 <ul class="clearfix" style="display:none;">
-					sdf
+					<div id="gyi_4" class="tb_box2"></div>
 				</ul>
 			</div>
             
@@ -273,6 +273,22 @@ $(function(){
 	datatable =  $('#datatable1').DataTable(dt_option);
 });
 </script>
+
+<script type="text/javascript">
+$(function(){
+	
+	$(".tab2 li a").click(function(){
+		var index = $(this).parent().index();
+		var in2 = index + 2;
+		$(this).parent().addClass("cur").siblings().removeClass("cur");
+		$(this).closest(".tab2").next(".tab2_body").find("ul").eq(index).css("display","block").siblings("ul").css("display","none");
+		eval( "myChart" + in2 + ".resize()" );
+		return false;
+	});
+	
+});
+</script>
+
 
 </body>
 </html>

@@ -11,6 +11,9 @@
 	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 	<script type="text/javascript" src="js/moment.min.js"></script>
 	<script type="text/javascript" src="js/date.js"></script>
+	
+	
+	
 	<script type="text/javascript" src="js/main2.js"></script>
 	<script type="text/javascript" src="js/jquery.tools.min.js"></script>
 
@@ -26,4 +29,5 @@
 	<script type="text/javascript" src="/js/jquery.validate.min.js"></script>
 	<script type="text/javascript" src="/js/messages_zh.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.form.min.js"></script>
+	
 	
