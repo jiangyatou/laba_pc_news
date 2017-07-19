@@ -49,6 +49,14 @@ $(function(){
 			return false;
 		}
 	});
+	
+	$(".chk_2").click(function(){
+		if( $(this).find("input")[0].checked == true ){
+			$(this).addClass("on");
+		}else{
+			$(this).removeClass("on");
+		}
+	});
 	$("#apDiv1 li input[name=checkItem_tcar]").change(function(){
 		countPrice_tcar();
 	});

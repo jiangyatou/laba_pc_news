@@ -1026,6 +1026,19 @@ ul.ul_top li a{	font-size:18px;	color:#b4b4b4;	}
 .GWxuanxiang{	width:20px;	margin:18px 14px 0 0;	}
 .GWxuanxiang input[type="checkbox"]{ width:20px; height:20px; border-radius:5px; border:1px solid #ccc;}
 
+/*
+.chk_1 {display: none;}
+.chk_1 + label {background-color: #FFF;border: 1px solid #C1CACA;border-radius: 5px;display: inline-block;position: relative;font:14px/18px "Microsoft Yahei", Tahoma, Helvetica, Arial, Verdana, "\5b8b\4f53", sans-serif; width:20px; height:20px;}
+.chk_1 + label:active {box-shadow: 0 1px 2px rgba(255,255,255,0.05), inset 0px 1px 3px rgba(255,255,255,0.1);}
+.chk_1:checked + label {background-color: #0582f6;border: 1px solid #92A1AC;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);color: #243441;}
+.chk_1:checked + label:after {content: '\2714';position: absolute;top: 0px;left: 0px;color: #fff;width: 100%;text-align: center;font-size: 1.4em;padding: 1px 0 0 0;vertical-align: text-top;}
+*/
+.chk_2 input{	adisplay:none;	position:relative;	left:-100px;		}
+.chk_2{	width:22px;	height:23px;	display: inline-block;		overflow:hidden;
+	background:url(../images/bg_cbox.gif) no-repeat 0 0 #FFF;	}
+.chk_2.on{	background:url(../images/bg_cbox_on.gif) no-repeat 0 0 #FFF;		}
+
+
 .IOimg{		width:60px; height:60px; float:left; position:relative; margin-right:20px;	}
 .IOimg img{ width:60px; height:60px;	border-radius:50px;	}
 .IOtext{ 	line-height:30px;	 width:220px; height:auto; float:left;	}

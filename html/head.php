@@ -50,24 +50,30 @@
 				<div class="IIO_line"></div>
 				<ul class="ITorder"  id="apDiv1">
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="1" data-price="1.01" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="1" data-price="1.01" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 							</div>
 						<div class="IOtext">
 							<h3>订单名称</h3>
-							<p>￥1.00</p>
+							<p>￥1.01</p>
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="2" data-price="2.10" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="2" data-price="2.10" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
 							<h3>订单名称</h3>
-							<p>￥2.00</p>
+							<p>￥2.10</p>
 						</div>
 					</a></li><li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="3" data-price="3.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="3" data-price="3.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
@@ -76,7 +82,9 @@
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="3" data-price="21.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="4" data-price="21.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
@@ -85,7 +93,9 @@
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="4" data-price="21.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="5" data-price="21.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
@@ -94,7 +104,9 @@
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="5" data-price="21.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="6" data-price="21.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
@@ -103,7 +115,9 @@
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="6" data-price="21.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="7" data-price="21.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
@@ -112,7 +126,9 @@
 						</div>
 					</a></li>
 					<li><a href="">
-						<div class="GWxuanxiang"><input type="checkbox" name="checkItem_tcar" data_id="7" data-price="21.00" /></div>
+						<div class="GWxuanxiang">
+							<label class="chk_2"><input type="checkbox" name="checkItem_tcar" data_id="8" data-price="21.00" /></label>
+						</div>
 						<div class="IOimg"><img src="/images/avatar.png" />
 						</div>
 						<div class="IOtext">
